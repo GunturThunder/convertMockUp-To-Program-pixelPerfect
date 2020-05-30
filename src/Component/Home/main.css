@@ -1,0 +1,209 @@
+@font-face {
+  font-family: Poppins;
+  src: url("../../font/Poppins-Regular.ttf");
+}
+
+@font-face {
+  font-family: PoppinsBold;
+  src: url("../../font/Poppins-Bold.ttf");
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+}
+
+.wrap {
+  height: 100vh;
+}
+
+.wrap .sidebar {
+  height: 100vh;
+  background-color: #2E4DD4;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.wrap .sidebar .sidebarWrap {
+  width: 85%;
+  height: 90vh;
+}
+
+.wrap .sidebar .sidebarWrap .logoName {
+  color: white;
+  font-size: 24px;
+  font-family: 'PoppinsBold';
+}
+
+.wrap .sidebar .sidebarWrap .sidebarList {
+  height: 80vh;
+  color: white;
+  list-style: none;
+  margin-top: 50px;
+  margin-left: -40px;
+}
+
+.wrap .sidebar .sidebarWrap .sidebarList .li {
+  font-size: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 30px;
+  width: 100%;
+}
+
+.wrap .sidebar .sidebarWrap .sidebarList .li .icon {
+  font-size: 35px !important;
+  margin-right: 10px;
+}
+
+.wrap .sidebar .sidebarWrap .sidebarList .li:hover {
+  margin-left: 15px;
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+  font-family: 'PoppinsBold';
+}
+
+.wrap .wrapContent {
+  background-color: #F5F6FA;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.wrap .wrapContent .content {
+  background-color: white;
+  height: 90vh;
+}
+
+.wrap .wrapContent .content .header {
+  height: 80px;
+  background-color: #F5F6FA;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.wrap .wrapContent .content .header .title {
+  font-family: 'PoppinsBold';
+  font-size: 36px;
+  color: #2E4765;
+}
+
+.wrap .wrapContent .content .header .wellcome {
+  font-size: 18px;
+}
+
+.wrap .wrapContent .content .header .name {
+  font-size: 20px;
+  font-family: 'PoppinsBold';
+}
+
+.wrap .wrapContent .content .option {
+  height: 80px;
+  background-color: #F5F6FA;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.wrap .wrapContent .content .option .itemType {
+  height: 80px;
+  background-color: #F5F6FA;
+}
+
+.wrap .wrapContent .content .option .itemType .borderRadius {
+  border-radius: 20px;
+  background-color: white;
+}
+
+.wrap .wrapContent .content .option .itemType .borderRadius #dropdown-basic-button {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: white;
+  color: black;
+  border: none;
+  font-size: 18px;
+}
+
+.wrap .wrapContent .content .option .city {
+  height: 80px;
+  background-color: #F5F6FA;
+}
+
+.wrap .wrapContent .content .option .city .borderRadius {
+  border-radius: 20px;
+  background-color: white;
+}
+
+.wrap .wrapContent .content .option .city .borderRadius #dropdown-basic-button {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: white;
+  color: black;
+  border: none;
+  font-size: 20px;
+}
+
+.wrap .wrapContent .content .option .date {
+  height: 70px;
+  background-color: yellow;
+}
+
+.wrap .wrapContent .content .option .latest {
+  height: 70px;
+  background-color: green;
+}
+
+.wrap .wrapContent .content .option .search {
+  height: 70px;
+  background-color: blue;
+}
+
+.wrap .wrapContent .content .wellcome {
+  font-size: 18px;
+}
+
+.wrap .wrapContent .content .name {
+  font-size: 20px;
+  font-family: 'PoppinsBold';
+}
+
+.wrap .tranding {
+  background-color: green;
+}
+/*# sourceMappingURL=main.css.map */
