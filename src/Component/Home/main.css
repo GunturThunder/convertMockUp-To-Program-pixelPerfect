@@ -40,7 +40,7 @@ body {
 
 .wrap .sidebar .sidebarWrap .logoName {
   color: white;
-  font-size: 24px;
+  font-size: 20px;
   font-family: 'PoppinsBold';
 }
 
@@ -48,12 +48,11 @@ body {
   height: 80vh;
   color: white;
   list-style: none;
-  margin-top: 50px;
   margin-left: -40px;
 }
 
 .wrap .sidebar .sidebarWrap .sidebarList .li {
-  font-size: 24px;
+  font-size: 18px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -62,7 +61,7 @@ body {
 }
 
 .wrap .sidebar .sidebarWrap .sidebarList .li .icon {
-  font-size: 35px !important;
+  font-size: 25px !important;
   margin-right: 10px;
 }
 
@@ -84,8 +83,17 @@ body {
 }
 
 .wrap .wrapContent .content {
-  background-color: white;
+  background-color: #F5F6FA;
   height: 90vh;
+}
+
+.wrap .wrapContent .content .wellcome {
+  font-size: 18px;
+}
+
+.wrap .wrapContent .content .name {
+  font-size: 20px;
+  font-family: 'PoppinsBold';
 }
 
 .wrap .wrapContent .content .header {
@@ -133,6 +141,7 @@ body {
 .wrap .wrapContent .content .option .itemType .borderRadius {
   border-radius: 20px;
   background-color: white;
+  font-size: 12px;
 }
 
 .wrap .wrapContent .content .option .itemType .borderRadius #dropdown-basic-button {
@@ -149,7 +158,8 @@ body {
   background-color: white;
   color: black;
   border: none;
-  font-size: 18px;
+  font-size: 12px;
+  font-weight: bold;
 }
 
 .wrap .wrapContent .content .option .city {
@@ -160,6 +170,7 @@ body {
 .wrap .wrapContent .content .option .city .borderRadius {
   border-radius: 20px;
   background-color: white;
+  font-size: 12px;
 }
 
 .wrap .wrapContent .content .option .city .borderRadius #dropdown-basic-button {
@@ -176,31 +187,321 @@ body {
   background-color: white;
   color: black;
   border: none;
-  font-size: 20px;
+  font-size: 12px;
+  font-weight: bold;
 }
 
 .wrap .wrapContent .content .option .date {
-  height: 70px;
-  background-color: yellow;
+  height: 80px;
+  background-color: #F5F6FA;
+}
+
+.wrap .wrapContent .content .option .date .borderRadius {
+  border-radius: 20px 20px 5px 5px;
+  background-color: white;
+  height: 50px;
+  font-size: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.wrap .wrapContent .content .option .date .borderRadius .datePicker {
+  font-size: 16px;
+  width: 100%;
+  font-weight: bold;
+  font-size: 12px;
 }
 
 .wrap .wrapContent .content .option .latest {
   height: 70px;
-  background-color: green;
+  background-color: #F5F6FA;
+}
+
+.wrap .wrapContent .content .option .latest .borderRadius {
+  border-radius: 20px;
+  background-color: white;
+  font-size: 12px;
+}
+
+.wrap .wrapContent .content .option .latest .borderRadius #dropdown-basic-button {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: white;
+  color: black;
+  border: none;
+  font-size: 12px;
+  font-weight: bold;
 }
 
 .wrap .wrapContent .content .option .search {
-  height: 70px;
-  background-color: blue;
+  height: 80px;
+  background-color: #F5F6FA;
 }
 
-.wrap .wrapContent .content .wellcome {
-  font-size: 18px;
+.wrap .wrapContent .content .option .search .button {
+  border-radius: 10px;
+  background-color: #84E0BE;
+  border: 1px solid #00BF78;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-.wrap .wrapContent .content .name {
-  font-size: 20px;
+.wrap .wrapContent .content .option .search .button .fa-search {
+  font-size: 25px;
+  padding: 3px;
+}
+
+.wrap .wrapContent .content .grid1 {
+  height: 100%;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.wrap .wrapContent .content .grid2 {
+  background-color: white;
+}
+
+.wrap .wrapContent .content .grid2 .wrap {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  font-size: 10px;
+}
+
+.wrap .wrapContent .content .grid2 .wrap .wrap1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.wrap .wrapContent .content .grid2 .wrap .wrap1 .text {
+  font-size: 15px;
   font-family: 'PoppinsBold';
+}
+
+.wrap .wrapContent .content .grid2 .wrap .wrap1 .location {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 75%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 5px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.wrap .wrapContent .content .grid3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background-color: white;
+}
+
+.wrap .wrapContent .content .grid3 .top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.wrap .wrapContent .content .grid3 .top .verified {
+  font-size: 10px;
+  background-color: #84E0BE;
+  padding: 2px 10px;
+  color: white;
+  border: 1px solid #00BF78;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.wrap .wrapContent .content .grid3 .top .cartons {
+  font-size: 10px;
+  font-family: 'PoppinsBold';
+}
+
+.wrap .wrapContent .content .grid3 .bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.wrap .wrapContent .content .grid3 .bottom .availabe {
+  font-size: 10px;
+  background-color: #FFBC6E;
+  padding: 2px 7px;
+  color: white;
+  border: 1px solid #FAB05A;
+  border-radius: 5px;
+  font-weight: bold;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.wrap .wrapContent .content .grid3 .bottom .availabe .fa-check {
+  margin-right: 2px;
+}
+
+.wrap .wrapContent .content .grid3 .bottom .costumerJoin {
+  font-size: 8px;
+  background-color: #9FD4FD;
+  padding: 4.5px 7px;
+  color: white;
+  border: 1px solid #9AC4E3;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.wrap .wrapContent .content .grid4 {
+  background-color: white;
+}
+
+.wrap .wrapContent .content .grid4 .wrapGrid4 {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.wrap .wrapContent .content .grid4 .wrapGrid4 .text {
+  font-size: 10px;
+  font-family: 'PoppinsBold';
+}
+
+.wrap .wrapContent .content .grid4 .wrapGrid4 #dropdown-basic-button {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: white;
+  color: black;
+  border: none;
+  font-size: 11px;
+}
+
+.wrap .wrapContent .content .grid5 {
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-left: 2px solid #F5F6FA;
+}
+
+.wrap .wrapContent .content .grid5 .wrapGrid5 {
+  height: 85%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.wrap .wrapContent .content .grid5 .wrapGrid5 .asking {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 12px;
+}
+
+.wrap .wrapContent .content .grid5 .wrapGrid5 .text {
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.wrap .wrapContent .content .grid5 .wrapGrid5 .auction {
+  font-size: 12px;
+  padding: 10px 7px;
+  border-radius: 10px;
+  border: 1px solid #00BF78;
+  background-color: #84E0BE;
+  color: white;
+  font-weight: bold;
+  text-align: center;
 }
 
 .wrap .tranding {
