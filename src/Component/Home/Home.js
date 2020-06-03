@@ -4,6 +4,7 @@ import { Row, Col, Container, DropdownButton, Dropdown, Button } from 'react-boo
 // import { Link } from 'react-router-dom'
 import './main.css'
 import Logo from '../../img/Logo.png'
+import Profile from '../../img/profile.jpg'
 
 
 class Home extends Component {
@@ -286,15 +287,32 @@ class Home extends Component {
                                     </Col>
                                 </Row>
                             </Container>
-
-
                         </Col>
                     </Col>
                     <Col className="tranding" lg={2}>
+                        <Col style={{ height: '90px', marginBottom: '10px', display: 'flex', alignItems: 'center'}} lg={12}>
+                            <div style={{backgroundColor:'white',width:'100%',display:'flex',justifyContent:'space-between',alignItems:'center',padding:'12px',borderRadius:'10px'}}>
+                                <div className="profile">
+                                    <img className="img" src={Profile} />
+                                    <text className="text" >Logout</text>
+                                </div>
+                                <div className="wrapIcon">
+                                    <i class="far fa-bell icon"></i>
+                                    <i class="fas fa-ellipsis-h icon"></i>
+                                </div>
+                            </div>
+                        </Col>
+                        <Col style={{ backgroundColor: 'blue', height: '90px' }} lg={12}>
+
+                        </Col>
+                        <Col style={{ backgroundColor: 'yellow', height: '90px' }} lg={12}>
+
+                        </Col>
                     </Col>
                 </Row>
             </Container>
         )
     }
 }
+
 export default Home

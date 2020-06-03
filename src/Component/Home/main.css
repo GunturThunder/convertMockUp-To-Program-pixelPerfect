@@ -139,7 +139,7 @@ body {
 }
 
 .wrap .wrapContent .content .option .itemType .borderRadius {
-  border-radius: 20px;
+  border-radius: 15px;
   background-color: white;
   font-size: 12px;
 }
@@ -168,7 +168,7 @@ body {
 }
 
 .wrap .wrapContent .content .option .city .borderRadius {
-  border-radius: 20px;
+  border-radius: 15px;
   background-color: white;
   font-size: 12px;
 }
@@ -197,7 +197,7 @@ body {
 }
 
 .wrap .wrapContent .content .option .date .borderRadius {
-  border-radius: 20px 20px 5px 5px;
+  border-radius: 15px 15px 5px 5px;
   background-color: white;
   height: 50px;
   font-size: 12px;
@@ -222,7 +222,7 @@ body {
 }
 
 .wrap .wrapContent .content .option .latest .borderRadius {
-  border-radius: 20px;
+  border-radius: 15px;
   background-color: white;
   font-size: 12px;
 }
@@ -505,6 +505,30 @@ body {
 }
 
 .wrap .tranding {
-  background-color: green;
+  background-color: #F5F6FA;
+}
+
+.wrap .tranding .profile .img {
+  height: 50px;
+  width: 50px;
+  border-radius: 10px;
+  margin-right: 5px;
+}
+
+.wrap .tranding .profile .text {
+  font-size: 12px;
+}
+
+.wrap .tranding .wrapIcon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 25%;
+}
+
+.wrap .tranding .wrapIcon .icon {
+  font-size: 15px;
 }
 /*# sourceMappingURL=main.css.map */
